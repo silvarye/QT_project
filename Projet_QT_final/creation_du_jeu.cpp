@@ -182,21 +182,6 @@ void creation_du_jeu::ramasser_clees(int i)
     }
 }
 
-//-----------------------------------apparition message de depart -------------------------------------//
-/*
-void creation_du_jeu::afficher_message()
-{
-    if(getModel()->getSplashScreen()->getType() == SplashScreenType::GO){
-        int x=model->getSplashScreen()->getRect().x();
-        int y=model->getSplashScreen()->getRect().y();
-        y--;
-        if(model->getSplashScreen()->getRect().bottom() > 0 && model->getSplashScreen()->getIsSplashScreen())
-            model->getSplashScreen()->move(x, y);
-        else
-            model->getSplashScreen()->setIsSplashScreen(false);
-    }
-}
-*/
 
 //-------------------- mouvement sprite cookie -----------------//
 void creation_du_jeu::mouvement_sprite_clee()
@@ -231,12 +216,6 @@ bool creation_du_jeu::perdu(){
     if(getModele()->getPersonnage()->getRect().y() > 500){
         getModele()->getMsgBulle()->setAffichage(true);
         bulle_msg_tps = 0;
-      //  if(getModel()->getSplashScreen()->getType() != SplashScreenType::GAME_OVER){
-          //  getModel()->createGameOver(220, 100);
-       //     getModel()->getSplashScreen()->setType(SplashScreenType::GAME_OVER);
-
-      //  }
-       // model->getSplashScreen()->setIsSplashScreen(true);
         stopJeu();
         return true;
     }
@@ -246,12 +225,6 @@ bool creation_du_jeu::perdu(){
 //------------------ fin de partie -------------------------//
 bool creation_du_jeu::gagne(){
     if(getModele()->getPersonnage()->getNbrClee() >= 150){
-        //if(getModel()->getSplashScreen()->getType() != SplashScreenType::COMPLETED){
-           // getModel()->createCompleted(360, 120);
-         //   getModel()->getSplashScreen()->setType(SplashScreenType::COMPLETED);
-
-      //  }
-     //   model->getSplashScreen()->setIsSplashScreen(true);
         stopJeu();
         return true;
     }
