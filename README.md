@@ -15,6 +15,10 @@ Un Qt-creator fonctionnel.
 Pour jouer au jeu il faut télécharger le zip, ensuite le mettre sur le bureau. Le dézipper puis ouvrir QT creator. Ensuite il vous faudra cliquer sur l'onglet "fichier" -> ouvrir un fichier ou projet, et ouvrir le dossier téléchargé précedemment.
 Maintenant cliquez sur Run et amusez-vous !
 
+### Pour jouer
+
+Utiliser les flèches directionnelles gauche et droite pour vous déplacer, et la barre espace pour sauter. Le but est de rammassez 150 clées le plus rapidement possible. N'hésitez pas à partager votre score avec vos amis !
+
 ## Fabriqué avec
 
 Voici les programmes/logiciels/ressources que j'ai utilisé pour développer mon projet !
