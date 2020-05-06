@@ -12,7 +12,8 @@ Un Qt-creator fonctionnel.
 
 ## Démarrage
 
-Pour jouer au jeu il faut ouvrir le projet sur Qt-creator, configurer le projet en cliquant le petit ecran en bas a gauche, mettre en mode debug, pouis construire le projet, Qt-creator créera le projet ainsi qu'un fichier .pro
+Pour jouer au jeu il faut télécharger le zip, ensuite le mettre sur le bureau. Le dézipper puis ouvrir QT creator. Ensuite il vous faudra cliquer sur l'onglet "fichier" -> ouvrir un fichier ou projet, et ouvrir le dossier téléchargé précedemment.
+Maintenant cliquez sur Run et amusez-vous !
 
 ## Fabriqué avec
 
